@@ -1,0 +1,1 @@
+# Future home of the Teradata SQL Extensions for Jupyter
