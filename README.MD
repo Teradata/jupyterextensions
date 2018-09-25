@@ -1,1 +1,1 @@
-# Future home of the Teradata SQL Extensions for Jupyter
+# Future home of the Teradata SQL Extension for Jupyter
