@@ -1,0 +1,90 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
+  "layer": [
+    {
+      "data": {
+        "values": [
+          {
+            "category": "a",
+            "count": 3
+          },
+          {
+            "category": "b",
+            "count": 7
+          },
+          {
+            "category": "c",
+            "count": 3
+          },
+          {
+            "category": "d",
+            "count": 5
+          },
+          {
+            "category": "e",
+            "count": 10
+          },
+          {
+            "category": "f",
+            "count": 6
+          }
+        ]
+      },
+      "mark": "bar",
+      "encoding": {
+        "x": {
+          "field": "category",
+          "type": "nominal"
+        },
+        "y": {
+          "field": "count",
+          "type": "quantitative"
+        },
+        "opacity": {
+          "value": 0.3
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "category": "a",
+            "count": 3
+          },
+          {
+            "category": "b",
+            "count": 7
+          },
+          {
+            "category": "c",
+            "count": 3
+          },
+          {
+            "category": "d",
+            "count": 5
+          },
+          {
+            "category": "e",
+            "count": 10
+          },
+          {
+            "category": "f",
+            "count": 6
+          }
+        ]
+      },
+      "mark": "line",
+      "encoding": {
+        "x": {
+          "field": "category",
+          "type": "nominal"
+        },
+        "y": {
+          "field": "count",
+          "type": "quantitative"
+        }
+      }
+    }
+  ]
+}

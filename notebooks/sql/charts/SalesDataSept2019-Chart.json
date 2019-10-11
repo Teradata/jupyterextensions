@@ -1,0 +1,164 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v3.json",
+  "data": {
+    "format": {"type": "json"},
+    "values": [
+      {
+        "SALES": ".00",
+        "Sales_Center_ID": "1111",
+        "Sales_Center_Name": "Phoenix"
+      },
+      {
+        "SALES": "35.58",
+        "Sales_Center_ID": "1114",
+        "Sales_Center_Name": "Fort Wayne"
+      },
+      {
+        "SALES": ".00",
+        "Sales_Center_ID": "9999",
+        "Sales_Center_Name": "Redding"
+      },
+      {
+        "SALES": "16.50",
+        "Sales_Center_ID": "1113",
+        "Sales_Center_Name": "Jacksonville"
+      },
+      {
+        "SALES": "7.79",
+        "Sales_Center_ID": "6666",
+        "Sales_Center_Name": "Memphis"
+      },
+      {
+        "SALES": "65.73",
+        "Sales_Center_ID": "4444",
+        "Sales_Center_Name": "Louisville"
+      },
+      {
+        "SALES": "29.00",
+        "Sales_Center_ID": "2111",
+        "Sales_Center_Name": "Bakersfield"
+      },
+      {
+        "SALES": "17.18",
+        "Sales_Center_ID": "1116",
+        "Sales_Center_Name": "Portland"
+      },
+      {
+        "SALES": "43.78",
+        "Sales_Center_ID": "3333",
+        "Sales_Center_Name": "Omaha"
+      },
+      {
+        "SALES": ".00",
+        "Sales_Center_ID": "8888",
+        "Sales_Center_Name": "San Diego"
+      },
+      {
+        "SALES": "27.10",
+        "Sales_Center_ID": "1118",
+        "Sales_Center_Name": "Wacco"
+      },
+      {"SALES": ".00", "Sales_Center_ID": "1119", "Sales_Center_Name": "Flint"},
+      {
+        "SALES": "55.00",
+        "Sales_Center_ID": "3111",
+        "Sales_Center_Name": "Orange"
+      },
+      {
+        "SALES": "19.36",
+        "Sales_Center_ID": "1112",
+        "Sales_Center_Name": "South Bend"
+      },
+      {"SALES": ".00", "Sales_Center_ID": "2222", "Sales_Center_Name": "Bend"},
+      {
+        "SALES": ".00",
+        "Sales_Center_ID": "1115",
+        "Sales_Center_Name": "Billings"
+      },
+      {
+        "SALES": "15.25",
+        "Sales_Center_ID": "7777",
+        "Sales_Center_Name": "Monroe"
+      },
+      {
+        "SALES": "9.50",
+        "Sales_Center_ID": "1117",
+        "Sales_Center_Name": "Ashland"
+      },
+      {
+        "SALES": ".00",
+        "Sales_Center_ID": "1111",
+        "Sales_Center_Name": "Phoenix"
+      },
+      {
+        "SALES": ".00",
+        "Sales_Center_ID": "9999",
+        "Sales_Center_Name": "Redding"
+      },
+      {
+        "SALES": "39.42",
+        "Sales_Center_ID": "1113",
+        "Sales_Center_Name": "Jacksonville"
+      },
+      {
+        "SALES": "18.75",
+        "Sales_Center_ID": "6666",
+        "Sales_Center_Name": "Memphis"
+      },
+      {
+        "SALES": "20.85",
+        "Sales_Center_ID": "4444",
+        "Sales_Center_Name": "Louisville"
+      },
+      {
+        "SALES": "32.00",
+        "Sales_Center_ID": "3333",
+        "Sales_Center_Name": "Omaha"
+      },
+      {
+        "SALES": "10.60",
+        "Sales_Center_ID": "8888",
+        "Sales_Center_Name": "San Diego"
+      },
+      {
+        "SALES": "8.00",
+        "Sales_Center_ID": "1112",
+        "Sales_Center_Name": "South Bend"
+      },
+      {
+        "SALES": "18.75",
+        "Sales_Center_ID": "2222",
+        "Sales_Center_Name": "Bend"
+      },
+      {
+        "SALES": ".00",
+        "Sales_Center_ID": "7777",
+        "Sales_Center_Name": "Monroe"
+      },
+      {
+        "SALES": ".00",
+        "Sales_Center_ID": "5555",
+        "Sales_Center_Name": "Bismark"
+      },
+      {
+        "SALES": "7.97",
+        "Sales_Center_ID": "5555",
+        "Sales_Center_Name": "Bismark"
+      }
+    ]
+  },
+  "encoding": {
+    "x": {
+      "axis": {"grid": true, "title": "sales_center_name"},
+      "field": "Sales_Center_Name",
+      "type": "nominal"
+    },
+    "y": {
+      "axis": {"grid": true, "title": "sales"},
+      "field": "SALES",
+      "type": "quantitative"
+    }
+  },
+  "mark": {"color": "orange", "type": "rect"},
+  "title": "Sales Data"
+}

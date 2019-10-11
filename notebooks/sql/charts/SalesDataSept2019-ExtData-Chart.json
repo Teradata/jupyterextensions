@@ -1,0 +1,21 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v3.json",
+  "data": {
+    "format": {"type": "json"},
+    "url": "salesdata.json"
+  },
+  "encoding": {
+    "x": {
+      "axis": {"grid": true, "title": "sales_center_name"},
+      "field": "Sales_Center_Name",
+      "type": "nominal"
+    },
+    "y": {
+      "axis": {"grid": true, "title": "sales"},
+      "field": "SALES",
+      "type": "quantitative"
+    }
+  },
+  "mark": {"color": "skyblue", "type": "rect"},
+  "title": "Sales Data"
+}
