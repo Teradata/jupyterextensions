@@ -4,7 +4,7 @@
 
 The following table lists the connection parameters currently supported for use with the `Teradata SQL Extension for Jupyter`.
 
-The goal of the underlying driver is to provide consistency with the connection parameters offered by the Teradata JDBC Driver, in terms of both parameter names and functionality.  For more details on the use of these parameters, see the Teradata JDBC Driver connection parameters [documented here](http://developer.teradata.com/doc/connectivity/jdbc/reference/current/jdbcug_chapter_2.html#BGBHDDGB).
+The goal of the underlying driver is to provide consistency with the connection parameters offered by the Teradata JDBC Driver, in terms of both parameter names and functionality.  For more details on the use of these parameters, see the Teradata JDBC Driver connection parameters [documented here](https://downloads.teradata.com/doc/connectivity/jdbc/reference/current/jdbcug_chapter_2.html#BGBHDDGB).
 
 Any parameters not listed in this table will be ignored or errors will be reported as appropriate.
 
