@@ -3,7 +3,7 @@
 * and have been released to the Public Domain.
 * Please see license.txt file in the package for more information.
 * Alexander Kolovos - 4 Sep 2015 - v.1.2
-* Copyright 2015-2019 Teradata. All rights reserved.
+* Copyright 2019-2020 Teradata. All rights reserved.
 * Licensed under BSD
 
 R And Python Analytics with the SCRIPT Table Operator
