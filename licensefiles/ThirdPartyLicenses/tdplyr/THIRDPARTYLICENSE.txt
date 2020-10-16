@@ -1,0 +1,56 @@
+
+
+_________________________________________________________________________________
+
+tdplyr includes the following third-party software:
+
+_________________________________________________________________________________
+
+ODBC version 1.1.5
+https://cran.r-project.org/web/packages/odbc/index.html 
+copied without modification from https://github.com/r-dbi/odbc/blob/master/R/DataTypes.R#L248
+
+
+YEAR: 2016 COPYRIGHT HOLDER: RStudio
+Based on http://opensource.org/licenses/MIT This is a template. Complete and ship as file LICENSE the following 2 lines (only) YEAR: COPYRIGHT HOLDER: and specify as License: MIT + file LICENSE Copyright (c) ,  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. 
+
+
+
+dbplyr version 1.4.2
+https://cran.r-project.org/web/packages/dbplyr/index.html
+1. The functions sql_clause_generic, sql_clause_where, sql_clause_from, sql_clause_group_by, sql_clause_having and sql_clause_order_by are copied without modification from https://github.com/tidyverse/dbplyr/blob/master/R/translate-sql-clause.R
+2. The function partial_eval_dots is copied without modification from https://github.com/tidyverse/dbplyr/blob/master/R/partial-eval.R
+3. tdplyr uses some sections of code of dbplyr functions select_query and sql_render.select_query (with addition of group_by_time argument) from https://github.com/tidyverse/dbplyr/blob/master/R/query-select.R
+4. tdplyr updates sql_select.Teradata (with addition of group_by_time argument) from https://github.com/tidyverse/dbplyr/blob/master/R/backend-teradata.R
+5. The function check_summarise_vars is copied without modification from https://github.com/tidyverse/dbplyr/blob/master/R/verb-summarise.R
+6. The function all_names is copied without modification from https://github.com/tidyverse/dbplyr/blob/master/R/translate-sql.R
+
+
+Based on http://opensource.org/licenses/MIT
+This is a template. Complete and ship as file LICENSE the following 2 lines (only)
+
+YEAR:2013-2017
+COPYRIGHT HOLDER: RStudio
+and specify as
+
+License: MIT + file LICENSE
+Copyright (c) 2013-2017, RStudio
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
