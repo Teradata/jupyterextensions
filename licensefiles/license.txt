@@ -1,6 +1,6 @@
 
 Teradata SQL extension for Jupyter
-Copyright 2018-2021 Teradata.  All rights reserved.
+Copyright 2018-2022 Teradata.  All rights reserved.
 
 LICENSE AGREEMENT
 
